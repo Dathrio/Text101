@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class AdventureGame : MonoBehaviour
 {
+
+    Text textComponent;
+
     // Start is called before the first frame update
     void Start()
     {
