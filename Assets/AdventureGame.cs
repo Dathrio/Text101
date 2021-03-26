@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AdventureGame : MonoBehaviour
 {
 
-    Text textComponent;
+    [SerializeField] Text textComponent;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        textComponent.text = "It works! I'm a Genius.";
     }
 
     // Update is called once per frame
